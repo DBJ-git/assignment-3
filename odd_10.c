@@ -7,7 +7,7 @@ int main() {
     for(int i = 0 ; i < n ; i++){
         printf("%d\n",odd);
         odd += 2;
-    }
+    }                            // output = 1,3,5,7,9,11,13,15,17,19
     
     return 0;
 }
