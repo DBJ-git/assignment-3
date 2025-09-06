@@ -3,7 +3,7 @@
 int main() {
     int n;
 
-    printf("Enter the value of n : ");    // taking input from user
+    printf("Enter how many natural numbers you want to print : ");    // taking input from user
     scanf("%d",&n);
 
     for(int i = 1 ; i < n ; i++){
