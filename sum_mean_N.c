@@ -14,7 +14,7 @@ int main() {
     float mean = sum / n ;   
 
     printf("Sum of %d numbers = %d\n",n,sum);
-    printf("Mean of %d numbers = %f\n",n, mean);
+    printf("Mean of %d numbers = %f\n",n, mean);    //if user enter n = 5 then output of sum is 15 & mean is 3
 
     return 0;
 }
