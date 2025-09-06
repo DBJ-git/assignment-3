@@ -10,7 +10,7 @@ int main() {
     for(int i = 1 ; i <= n ; i++){
      sum += i;
  }
-   printf("Sum of n natural number is %d.\n",sum);
+   printf("Sum of n natural number is %d.\n",sum);   //if user enter n = 3 then output is 6
 
     return 0;
 }
