@@ -3,7 +3,7 @@
 int main() {
     int n, i;
 
-    printf("Enter how many odd numbers you want: ");
+    printf("Enter how many odd numbers you want to print: ");
     scanf("%d", &n);
 
     for(i = 1; i <= n; i++) {
