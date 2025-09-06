@@ -15,7 +15,7 @@ int main() {
   
     float mean = sum / 10.0;   
 
-    printf("\nSum of 10 numbers = %d\n", sum);              // if user input 1to10 then output of sum = 55 and mean 5.5
+    printf("Sum of 10 numbers = %d\n", sum);              // if user input 1to10 then output of sum = 55 and mean 5.5
     printf("Mean of 10 numbers = %f\n", mean);
 
     return 0;
