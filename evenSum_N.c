@@ -10,7 +10,7 @@ int main() {
         sum += 2 * i - 1;  
     }
 
-    printf("Sum of first %d even numbers is %d.\n", n, sum);
+    printf("Sum of first %d even numbers is %d.\n", n, sum);  //if user input 2 then output is 6
 
     return 0;
 }
