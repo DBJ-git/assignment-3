@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    int sum = 0;
+
+    for (int i = 1; i <= 10; i++) {
+        printf("Enter Number %d: ", i);
+        scanf("%d", &num);
+    }
+  
+    for(int j = 1 ; j <= 10 ; j++){
+    sum += j;
+    }
+  
+    float mean = sum / 10.0;   
+
+    printf("\nSum of 10 numbers = %d\n", sum);              // if user input 1to10 then output of sum = 55 and mean 5.5
+    printf("Mean of 10 numbers = %f\n", mean);
+
+    return 0;
+}
