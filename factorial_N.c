@@ -13,7 +13,7 @@ int main() {
         for (int i = 1; i <= n; i++) {
             factorial *= i;   
         }
-        printf("Factorial of %d is %d.\n", n, factorial);
+        printf("Factorial of %d is %d.\n", n, factorial);      // if user enter n = 5 then output = 120
     }
 
     return 0;
